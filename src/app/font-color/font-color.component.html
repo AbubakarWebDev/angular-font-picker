@@ -1,0 +1,34 @@
+<div class="app">
+    <hr>
+    <h1 class="title my-20"> {{ AppTitle }} </h1>
+    <hr>
+
+    <div class='flex items-center justify-center mr-20 my-20 fz-20'>
+        <div class='flex items-center justify-center mr-20 my-20'>
+            <label for="text">Enter Text:</label>
+            <input id='text' class='input' type="text" [value]='inputText' (keyup)="handleInput($event)">
+        </div>
+
+        <div class='flex items-center justify-center mr-20 my-20'>
+            <label for="fontsize">Font Size:</label>
+            <input id=fontsize type="range" min="1" max="100" [value]="fontSize" (input)="handleFontSize($event)">
+            <span>&nbsp;&nbsp;{{ fontSize }}px</span>
+        </div>
+
+        <div class='flex items-center justify-center mr-20 my-20'>
+            <label for="colors">Select Color:</label>
+            <select class='input' id="colors" (change)="handleColor($event)">
+                <option value="blue">primary</option>
+                <option value="green">success</option>
+                <option value="yellow">warning</option>
+                <option value="red">danger</option>
+            </select>
+        </div>
+    </div>
+    <hr>
+
+    <div class='flex items-center justify-center mr-20 my-20 fz-20' [style.color]="color" [style.fontSize.px]="fontSize">
+        Result:&nbsp;&nbsp;<span>{{ inputText }}</span>
+    </div>
+    <hr>
+</div>

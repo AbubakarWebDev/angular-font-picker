@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'learn-angular';
+  title = 'angular-practice';
+  fontSizePx = 16;
 }

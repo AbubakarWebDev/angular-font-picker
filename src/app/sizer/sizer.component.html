@@ -1,0 +1,5 @@
+<div class="d-inline-flex justify-content-center align-items-center">
+  <button class="btn btn-primary mx-2" (click)="resize(-1)" title="smaller">-</button>
+  <button class="btn btn-secondary me-2" (click)="resize(1)" title="bigger">+</button>
+  <label [style.font-size.px]="size">FontSize: {{size}}px</label>
+</div>

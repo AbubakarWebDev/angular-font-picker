@@ -17,8 +17,8 @@ git@2.39.0 or higher
 ## Clone the repo
 
 ```shell
-git clone https://github.com/AbubakarWebDev/ReactJS-Realtime-Chat-Application
-cd ReactJS-Realtime-Chat-Application
+git clone https://github.com/AbubakarWebDev/angular-font-picker
+cd angular-font-picker
 ```
 
 ## Install npm packages

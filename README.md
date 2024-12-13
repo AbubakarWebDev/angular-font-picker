@@ -1,27 +1,40 @@
-# LearnAngular
+# Angular Font Picker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+This Angular library provides a dynamic font picker component that allows users to select fonts and automatically update text styling in real-time. The font picker offers a seamless way to interact with and preview font changes within Angular applications.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Code scaffolding
+You'll need [Git](https://git-scm.com), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+node@18.0.0 or higher
+npm@10.0.0 or higher
+git@2.39.0 or higher
+```
 
-## Build
+## Clone the repo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```shell
+git clone https://github.com/AbubakarWebDev/ReactJS-Realtime-Chat-Application
+cd ReactJS-Realtime-Chat-Application
+```
 
-## Running unit tests
+## Install npm packages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install the `npm` packages described in the `package.json` and verify that it works:
 
-## Running end-to-end tests
+```shell
+npm install
+npm run dev
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribute Guide
 
-## Further help
+Here’s an improved version of your sentence:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If anyone wants to contribute to improving this further, don't hesitate - start creating a PR!
+
+Keep Growing!
+
